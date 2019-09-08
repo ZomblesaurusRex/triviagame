@@ -1,15 +1,39 @@
 //TITLE SCREEN--------------------------
-//start button--
-//on click,, hide the start button
-//on click show the game div
-//if/when the game div get shown, start the timer gameDivVisible=true
-//GAME DIV------------------
+//on click of start button, hide the the start button & run the game function
+
+//global variables
+//-------------------------
+//start 
+//timer
 //each question shows in its own div with a radio for each answer.
 //each question will stored in an array
-//each set of answer will be stored as an object within each question
-//when the answer is chosen it records the answer and logs it into the calcScore function
-//if/when the timer runs out OR the done button get clicked, 
-//gameDivVisible=false, and calcScore to show in scoreDivVisible=true
-//
-alert("Hello World!")
+//all answers will be in another array allAnswers
+//each right answer will be an array rightAnswers
+//userGuess
+//none
+//done
+//rightAnswer
+//wrongAnswer
+//score
+//**RESTART BUTTON ONLY IF YOU HAVE TIME
+
+//game function--------------------------------------------------------------
+//show the game div, probably with hidden true or false gameDivVisible=true
+//start the timer 
+//if the timer runs out, run the score function, done OR
+//if the done button is pressed, run the score function
+//user can only choose one option per question
+//record each answer from user in userGuess
+//record no answers in none
+
+//score function-------------------------------------------------------------
+//gameDivVisible=false, and run score to show in scoreDivVisible=true
+//compare the right answer array to the userguess array and display the number of right answers matched in the right answers array
+//display the remainder in wrong answer
+//count the number of no answers and display it in the no answer section
+
+
+
+
+
 

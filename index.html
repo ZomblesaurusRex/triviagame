@@ -5,25 +5,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="assets/styles/style.css" class="css">
+    <link rel="stylesheet" href="assets/styles/style.css" class="css">
     <title>Disneyland Trivia Game Unit #5</title>
 </head>
 
 <body>
 
-<header>Disneyland Trive Game!</header>
+    <header>
+        <h1>Disneyland Trivia Game!</h1>
+    </header>
 
-<div class="container">
-    <div class="game">
-        <div id="questions">
+    <div class="container">
+        <div class="start">
+            <button id="startBtn" type="button">Start!</button>
+        </div>
+
+        <div class="game">
+
+            <div id="questions">
+                <form action: "" method:"get" target="_blank">
+
+                    <p>
+                        Who is the mascot for Disneyland?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+
+                    <p>
+                        What is the oldest ride in Disneyland?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <p>
+                        What is the highest point in Disneyland?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <p>
+                        What historic figure is Disneyland's famous island named after?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <input type="radio" name="answers" value="___"> ______
+                    <p>
+                        How many room are hidden throughout the park for special guests within the park?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <p>
+                        What three hotels boast the magical Disney expirience?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <p>
+                        How many "Hidden Mickeys" are there to be found in the park?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <p>
+                        What are Disneyland employees referred to as?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <p>
+                        What free perk takes place within the park with most employees if approached?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <p>
+                        What are you called if you are a member of the Mickey Mouse Club?
+                    </p>
+                    <br>
+                    <input type="radio" name="answers" value="correct"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+                    <input type="radio" name="answers" value="incorrect"> ______
+
+                    <button id="doneBtn" type="submit">Done!</button>
+                </form>
+            </div>
 
         </div>
-        
+        <div class="score">
+            score
+        </div>
+
     </div>
-    
-</div>
 
 
 
@@ -34,17 +127,10 @@
 
 
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="assets/javascript/app.js" crossorigin="Origin Subfolder"></script>
+    <script src="assets/javascript/app.js"></script>
 </body>
 
 </html>

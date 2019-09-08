@@ -2,3 +2,21 @@ body {
     background-color: black;
     color: #ebebeb;
 }
+header{
+    text-align: center;
+    margin-bottom: 250px;
+    margin-top: 50px;
+
+}
+
+#startBtn{
+    margin-top: 15px;
+    padding: 10px;
+}
+.container{
+    background-color: #2b1031;
+    border: solid;
+    border-color: #ffffff;
+}
+
+
