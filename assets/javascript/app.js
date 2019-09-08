@@ -1,38 +1,51 @@
 //TITLE SCREEN--------------------------
-//on click of start button, hide the the start button & run the game function
-
 //global variables
-//-------------------------
-//start 
-//timer
-//each question shows in its own div with a radio for each answer.
-//each question will stored in an array
-//all answers will be in another array allAnswers
-//each right answer will be an array rightAnswers
-//userGuess
-//none
-//done
-//rightAnswer
-//wrongAnswer
-//score
 //**RESTART BUTTON ONLY IF YOU HAVE TIME
+//-------------------------
+var start = "";
+var time = "";
+var userGuess = "";
+var none = "";
+var done = "";
+var rightAnswer = "";
+var wrongAnswer = "";
+var score = "";
+var totalQuestions = 10;
+gameDivVisible = true;
+scoreDivVisible = true;
+$(document).ready(function () {
+    //start on click function
+    $(".start").show();
+    $(".game").hide();
+    $(".score").hide();
 
-//game function--------------------------------------------------------------
-//show the game div, probably with hidden true or false gameDivVisible=true
-//start the timer 
-//if the timer runs out, run the score function, done OR
+    $("#startBtn").click(function startGame() {
+        $(".start").hide();
+        $(".game").show();
+        //on click of start button, 
+        //hide the the start button & 
+        //run the game function
+        //game function--------------------------------------------------------------
+        //show the game divgameDivVisible=true
+        //start the timer 
+    })
+    $("#doneBtn").click(function tallyScore() {
+        //output each answer in userGuess array
+        $(".game").hide();
+        $(".score").show();
+        //all correct aswers will be counted and stored in rightAnswer
+        //record no answers in none
+    
 //if the done button is pressed, run the score function
-//user can only choose one option per question
-//record each answer from user in userGuess
-//record no answers in none
-
+//if the timer runs out, run the score function, done OR
 //score function-------------------------------------------------------------
 //gameDivVisible=false, and run score to show in scoreDivVisible=true
-//compare the right answer array to the userguess array and display the number of right answers matched in the right answers array
-//display the remainder in wrong answer
-//count the number of no answers and display it in the no answer section
+//contents in rightAnswer will be totaled and printed in div class score
+//wrongAnswer will equal totalQuestions minus rightAnswer and printed to div class score
+//none will be totaled and printed in div class score
+})
 
-
+});
 
 
 

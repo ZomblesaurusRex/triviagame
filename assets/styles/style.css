@@ -4,7 +4,7 @@ body {
 }
 header{
     text-align: center;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
     margin-top: 50px;
 
 }
@@ -17,6 +17,16 @@ header{
     background-color: #2b1031;
     border: solid;
     border-color: #ffffff;
+}
+#doneBtn{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #501ddd;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 
