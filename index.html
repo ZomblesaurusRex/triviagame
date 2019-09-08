@@ -23,98 +23,107 @@
         <div class="game">
 
             <div id="questions">
-                <form action: "" method:"get" target="_blank">
+              <div class="timer">
+
+              </div>
+                <form action: "" method:"get" target="_blank" oninput="userGuess.push(answers.value)">
 
                     <p>
                         Who is the mascot for Disneyland?
                     </p>
                     <br>
-                    <input type="radio" id= "1" name="answers1" value="correct"> ______
-                    <input type="radio" id= "1" name="answers1" value="incorrect"> ______
-                    <input type="radio" id= "1" name="answers1" value="incorrect"> ______
-                    <input type="radio" id= "1" name="answers1" value="incorrect"> ______
+                    <input type="radio" id= "1" name="answers1" value="correct"> Mikey Mouse
+                    <input type="radio" id= "1" name="answers1" value="incorrect"> Donald Duck
+                    <input type="radio" id= "1" name="answers1" value="incorrect"> Minnie Mouse
+                    <input type="radio" id= "1" name="answers1" value="incorrect"> Oswald the Rabbit
 
                     <p>
                         What is the oldest ride in Disneyland?
                     </p>
                     <br>
-                    <input type="radio" id= "2" name="answers1" value="incorrect"> ______
-                    <input type="radio" id= "2" name="answers1" value="incorrect"> ______
-                    <input type="radio" id= "2" name="answers1" value="incorrect"> ______
-                    <input type="radio" id= "2" name="answers1" value="correct"> ______
+                    <input type="radio" id= "2" name="answers2" value="incorrect"> Space Mountain
+                    <input type="radio" id= "2" name="answers2" value="incorrect"> Pirates of the Carribean
+                    <input type="radio" id= "2" name="answers2" value="incorrect"> It's a Small World
+                    <input type="radio" id= "2" name="answers2" value="correct"> Dumbo the Flying Elephant
                     <p>
                         What historic figure is Disneyland's famous island named after?
                     </p>
                     <br>
-                    <input type="radio" name="answers3" value="correct"> ______
-                    <input type="radio" name="answers3" value="incorrect"> ______
-                    <input type="radio" name="answers3" value="incorrect"> ______
-                    <input type="radio" name="answers3" value="incorrect"> ______
+                    <input type="radio" id= "3" name="answers3" value="correct"> Davy Crockett
+                    <input type="radio" id= "3" name="answers3" value="incorrect"> Abraham Lincoln
+                    <input type="radio" id= "3" name="answers3" value="incorrect"> Simon & Lewis
+                    <input type="radio" id= "3" name="answers3" value="incorrect"> John Smith
                     <p>
                         How many room are hidden throughout the park for special guests within the park?
                     </p>
                     <br>
-                    <input type="radio" name="answers4" value="incorrect"> ______
-                    <input type="radio" name="answers4" value="incorrect"> ______
-                    <input type="radio" name="answers4" value="incorrect"> ______
-                    <input type="radio" name="answers4" value="correct"> ______
+                    <input type="radio" id= "4" name="answers4" value="incorrect"> 12
+                    <input type="radio" id= "4" name="answers4" value="incorrect"> 2
+                    <input type="radio" id= "4" name="answers4" value="incorrect"> 6
+                    <input type="radio" id= "4" name="answers4" value="correct"> 3
                     <p>
-                        What three hotels boast the magical Disney expirience?
+                        What are on of the hotels that boasts the magical Disney expirience?
                     </p>
                     <br>
-                    <input type="radio" name="answers5" value="correct"> ______
-                    <input type="radio" name="answers5" value="incorrect"> ______
-                    <input type="radio" name="answers5" value="incorrect"> ______
-                    <input type="radio" name="answers5" value="incorrect"> ______
+                    <input type="radio" id= "5" name="answers5" value="correct"> Paradise Pier
+                    <input type="radio" id= "5" name="answers5" value="incorrect"> Great Western
+                    <input type="radio" id= "5" name="answers5" value="incorrect"> Big Bear
+                    <input type="radio" id= "5" name="answers5" value="incorrect"> Best Western
                     <p>
                         How many "Hidden Mickeys" are there to be found in the park?
                     </p>
                     <br>
-                    <input type="radio" name="answers6" value="incorrect"> ______
-                    <input type="radio" name="answers6" value="incorrect"> ______
-                    <input type="radio" name="answers6" value="correct"> ______
-                    <input type="radio" name="answers6" value="incorrect"> ______
+                    <input type="radio" id= "6" name="answers6" value="incorrect"> 4,524
+                    <input type="radio" id= "6" name="answers6" value="incorrect"> 791
+                    <input type="radio" id= "6" name="answers6" value="correct"> 1000
+                    <input type="radio" id= "6" name="answers6" value="incorrect"> 587
                     <p>
                         What are Disneyland employees referred to as?
                     </p>
                     <br>
-                    <input type="radio" name="answers7" value="incorrect"> ______
-                    <input type="radio" name="answers7" value="incorrect"> ______
-                    <input type="radio" name="answers7" value="incorrect"> ______
-                    <input type="radio" name="answers7" value="correct"> ______
+                    <input type="radio" id= "7" name="answers7" value="incorrect"> Show Stoppers
+                    <input type="radio" id= "7" name="answers7" value="incorrect"> Team Members
+                    <input type="radio" id= "7" name="answers7" value="incorrect"> Geniuses
+                    <input type="radio" id= "7" name="answers7" value="correct"> Cast Members
                     <p>
                         What free perk takes place within the park with most employees if approached?
                     </p>
                     <br>
-                    <input type="radio" name="answers8" value="incorrect"> ______
-                    <input type="radio" name="answers8" value="incorrect"> ______
-                    <input type="radio" name="answers8" value="correct"> 
-                    <input type="radio" name="answers8" value="incorrect"> ______
+                    <input type="radio" id= "8" name="answers8" value="incorrect"> Chicken Wings
+                    <input type="radio" id= "8" name="answers8" value="incorrect"> Photo Ops
+                    <input type="radio" id= "8" name="answers8" value="correct"> Pin Trading
+                    <input type="radio" id= "8" name="answers8" value="incorrect"> Fightclub
                     <p>
                         What are you called if you are a member of the Mickey Mouse Club?
                     </p>
                     <br>
-                    <input type="radio" name="answers9" value="correct"> ______
-                    <input type="radio" name="answers9" value="incorrect"> ______
-                    <input type="radio" name="answers9" value="incorrect"> ______
-                    <input type="radio" name="answers9" value="incorrect"> _____
+                    <input type="radio" id= "9" name="answers9" value="correct"> Mouskateer
+                    <input type="radio" id= "9" name="answers9" value="incorrect"> Minnie Mouser
+                    <input type="radio" id= "9" name="answers9" value="incorrect"> Guild of Magic
+                    <input type="radio" id= "9" name="answers9" value="incorrect"> Sorcere's Stone
                     <br>
                     <p>
                         What is the highest point in Disneyland?
                     </p>
                     <br>
-                    <input type="radio" name="answers10" value="incorrect"> ______
-                    <input type="radio" name="answers10" value="incorrect"> ______
-                    <input type="radio" name="answers10" value="correct"> ______
-                    <input type="radio" name="answers10" value="incorrect"> ______
+                    <input type="radio" id= "10" name="answers10" value="incorrect"> Haunted Mansion
+                    <input type="radio" id= "10" name="answers10" value="incorrect"> Thunder Mountain
+                    <input type="radio" id= "10" name="answers10" value="correct"> Peter Pan's Flight to Neverland
+                    <input type="radio" id= "10" name="answers10" value="incorrect"> Matterhorn
                     <br>
-                    <input id= "doneBtn" type="submit" value="Done!">    
+                    
                 </form>
+                <button id= "doneBtn"> Done! </button>  
             </div>
             
         </div>
         <div class="score">
-            score
+            <h2>All Done!</h2>
+            <h3>Correct: <span id= "right">0</span></h3>
+
+            <h3>Incorrect: <span id= "wrong">0</span></h3>
+
+            <h3>Unanswered: <span id= "blank">0</span></h3>
         </div>
 
     </div>
